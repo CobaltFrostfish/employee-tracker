@@ -164,7 +164,7 @@ const updateEmp = async () => {
 
     const position = await db.viewAllPositions()
 
-    const roleChoices = position.map(({ id, title }) => ({
+    const positionChoices = position.map(({ id, title }) => ({
         name: title,
         value: id
     }));
@@ -172,8 +172,8 @@ const updateEmp = async () => {
     const { positionId } = await prompt({
         name: 'positionId',
         type: 'list',
-        message: 'What role will this employee have?',
-        choices: roleChoices
+        message: 'What position will this employee have?',
+        choices: positionChoices
     });
     await db.updateEmp(employeeId, positionId);
     console.log('Updated employees role.')
