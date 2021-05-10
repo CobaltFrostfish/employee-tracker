@@ -5,7 +5,7 @@
 
 ## Links
 * **[Repository](https://github.com/CobaltFrostfish/employee-tracker)**
-* **[Video example](https://fierce-ocean-49311.herokuapp.com/)**
+* **[Video example](https://github.com/CobaltFrostfish/employee-tracker/blob/main/assets/employee-track-vid.gif)**
 # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## The project
